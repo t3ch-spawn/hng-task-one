@@ -2,8 +2,7 @@ const dayArray = ['Sunday', "Monday", "Tuesday", "Wednesday", "Thursday", "Frida
 
 const date = new Date()
 const dateEl = document.querySelector('.day')
+const timeEl = document.querySelector('.time')
 
 dateEl.textContent = `${dayArray[date.getDay()]}`
-
-
-console.log(date.getDay())
+timeEl.textContent = `${date.getTime()}`
