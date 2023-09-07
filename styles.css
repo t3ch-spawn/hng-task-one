@@ -1,0 +1,58 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700;800&display=swap");
+
+body {
+  font-family: "Poppins";
+  background-color: black;
+  display: flex;
+  min-height: 100vh;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+main {
+  background-color: white;
+  border-radius: 20px;
+  width: 85%;
+  max-width: 500px;
+  color: black;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  padding: 20px;
+  gap: 15px;            
+}
+h2 {
+  font-size: 26px;
+}
+
+h2 span {
+  text-decoration: underline;
+}
+
+h3 {
+  text-decoration: underline;
+}
+
+h1 {
+  color: white;
+}
+
+.heading-container {
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+  align-items: center;
+  width: 100%;
+}
+
+.heading-container img {
+  border-radius: 5px;
+}
+.slack-pic {
+  max-width: 150px;
+}
+
+.info-container{
+    line-height: 60%;
+}
